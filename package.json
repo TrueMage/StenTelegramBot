@@ -1,0 +1,21 @@
+{
+  "name": "sten-telegram-bot",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mrnima/tiktok-downloader": "^1.0.0",
+    "@tobyg74/tiktok-api-dl": "^1.3.2",
+    "downloadtiktok": "^3.0.0",
+    "grammy": "^1.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
