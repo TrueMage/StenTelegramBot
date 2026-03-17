@@ -19,3 +19,5 @@ bot.on("message:text", async (ctx : any) =>
 });
 
 bot.start();
+console.log('%cONLINE', 'color: #32CD32');
+console.log('VERSION: 1.0.0-BETA');
